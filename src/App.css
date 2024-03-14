@@ -1,29 +1,45 @@
+/* Styling for the body element */
 body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
+  margin: 0; /* Resets default margin */
+  display: flex; /* Displays children in a flex container */
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically */
+  min-height: 100vh; /* Sets minimum height to fill the viewport */
+  text-align: center; /* Aligns text content to the center */
 }
 
+/* Styling for h1 elements */
 h1 {
-  margin: 0;
-  margin-bottom: .5rem;
+  margin: 0; /* Resets default margin */
+  margin-bottom: .5rem; /* Adds space below the heading */
 }
 
+/* Styling for input elements with the 'input' class */
 .input {
-  border: 1px solid #333;
-  border-radius: .3em;
-  padding: .25rem;
-  width: 7em;
+  border: 1px solid #333; /* Sets border with a color */
+  border-radius: .3em; /* Rounds the corners of the input */
+  padding: .25rem; /* Adds padding inside the input */
+  width: 7em; /* Sets the width of the input */
 }
 
+/* Styling for select elements */
 select {
-  margin-left: .5rem;
+  margin-left: .5rem; /* Adds space to the left of the select element */
 }
 
+/* Styling for elements with the 'equals' class */
 .equals {
-  font-weight: bold;
-  font-size: 2rem;
+  font-weight: bold; /* Sets bold font weight */
+  font-size: 2rem; /* Sets font size to 2rem */
 }
+
+
+
+
+/* What this code does:
+
+1. Applies styling to the body element to center its children both horizontally and vertically, ensuring it fills at least the viewport's height.
+2. Styles the h1 element, resetting its default margin and adding space below it.
+3. Styles input elements with the "input" class, setting a border, border-radius, padding, and width.
+4. Styles select elements, adding space to the left of the element.
+5. tyles elements with the "equals" class, setting bold font weight and a font size of 2rem. */
